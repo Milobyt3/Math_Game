@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(58, 58, 75);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+}
+#background{
+    background-color: teal;
+}
+.outerBox{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#stats{
+    background-color: black;
+    /*height: 50px;
+    width: 100px;*/
+    margin: 20px 0 0 20px;
+    border-radius: 15px;
+}
+#stats h1{
+    color: white;
+}
+.innerBox{
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.rowBox{
+    display: flex;
+    justify-content: space-around;
+    width: 50%; 
+    margin: auto;
+    gap: 20px;
+}
+button{
+    margin: auto;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rowBox + .rowBox{
+    margin-top: 50px;
+}
+.randomText{
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+}
